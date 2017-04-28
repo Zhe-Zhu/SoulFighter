@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-playerSpeed = 5;
+movSpeed = 5;
+jumpMovSpeed = 2;
 
 grav = 1;
 jspd = 12;
@@ -16,3 +17,4 @@ enum PlayerDirection{
 m_playerDirection = PlayerDirection.RIGHT;
 
 isJumping = false;
+isAttack = false;
