@@ -6,21 +6,55 @@ MOVELEFT = keyboard_check(ord("A"));
 MOVERIGHT = keyboard_check(ord("D"));
 
 //Move Player
-if (MOVELEFT && x > sprite_width/2)
+if(!isJumping)
 {
-    x -= playerSpeed;
-    m_playerDirection = PlayerDirection.LEFT;
-	sprite_index = spr_character_move;
-	image_xscale = -1;
+	if (MOVELEFT && x > sprite_width/2)
+	{
+	    x -= playerSpeed;
+	    m_playerDirection = PlayerDirection.LEFT;
+		sprite_index = spr_character_move;
+		image_xscale = -1;
+	}
+	else if (MOVERIGHT && x < room_width - sprite_width/2)
+	{
+	    x += playerSpeed;
+	    m_playerDirection = PlayerDirection.RIGHT;
+		sprite_index = spr_character_move;
+		image_xscale = 1;
+	}
+	else 
+	{
+		sprite_index = spr_character_idle;
+	}
 }
-else if (MOVERIGHT && x < room_width - sprite_width/2)
+
+// Punch attack
+if (keyboard_check(ord("J")))
 {
-    x += playerSpeed;
-    m_playerDirection = PlayerDirection.RIGHT;
-	sprite_index = spr_character_move;
-	image_xscale = 1;
+	sprite_index = spr_character_punch;
+
+}
+
+// Check for ground
+if (place_meeting(x, y+1, obj_ground))
+{
+	vspd = 0;
+	isJumping = false;
+	// Jumping
+	if (keyboard_check(vk_space))
+	{
+		vspd = -jspd;
+		sprite_index = spr_character_jump;
+		isJumping = true;
+	}
 }
 else
+	// Gravity
 {
-	sprite_index = spr_character_idle;
+		if (vspd < 10)
+		{
+			vspd += grav;
+		}
 }
+
+y += vspd;
