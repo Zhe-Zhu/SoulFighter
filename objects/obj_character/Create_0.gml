@@ -18,3 +18,5 @@ m_playerDirection = PlayerDirection.RIGHT;
 
 isJumping = false;
 isAttack = false;
+
+attackIndex = 0;

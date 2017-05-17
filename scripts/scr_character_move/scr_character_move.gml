@@ -54,10 +54,10 @@ if (place_meeting(x, y+1, obj_ground))
 else
 	// Gravity
 {
-		if (vspd < 10)
-		{
-			vspd += grav;
-		}
+	if (vspd < 10)
+	{
+		vspd += grav;
+	}
 }
 
 x += hspd;
