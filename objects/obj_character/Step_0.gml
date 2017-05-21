@@ -21,24 +21,14 @@ if (keyboard_check(ord("J")) and !isAttack)
 
 }
 
-if (keyboard_check(ord("K")))
+if (keyboard_check(ord("K")) and !isAttack)
 {
 	isAttack = true;	
-	switch(attackIndex)
-	{
-		case 0:
-			sprite_index = spr_character_sword_attack_1;
-			attackIndex += 1;
-			break;
-		case 1:
-			sprite_index = spr_character_sword_attack_2;
-			attackIndex += 1;
-			break;
-		case 2:
-			sprite_index = spr_character_sword_attack_3;
-			attackIndex = 0;
-			break;
-	}
+	sprite_index = comboPunch[combo];
 	image_index = 0;
+	
+	combo = (combo+1)%comboMax;
+	
+	alarm[1] = 60; // And this to init the combo
 }
 

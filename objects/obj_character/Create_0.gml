@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 movSpeed = 5;
 jumpMovSpeed = 2;
@@ -19,4 +17,9 @@ m_playerDirection = PlayerDirection.RIGHT;
 isJumping = false;
 isAttack = false;
 
-attackIndex = 0;
+// Combo
+combo = 0;
+comboMax = 3;
+comboPunch[0] = spr_character_punch_1;
+comboPunch[1] = spr_character_punch_2;
+comboPunch[2] = spr_character_punch_3;
