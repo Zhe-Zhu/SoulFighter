@@ -12,7 +12,7 @@ if (MOVELEFT && x > sprite_width/2)
 	else 
 	{
 		hspd = -movSpeed;
-		sprite_index = spr_character_move;
+		sprite_index = sprMove;
 	}
 	m_playerDirection = PlayerDirection.LEFT;
 	image_xscale = -1;
@@ -26,14 +26,14 @@ else if (MOVERIGHT && x < room_width - sprite_width/2)
 	else 
 	{
 		hspd = movSpeed;
-		sprite_index = spr_character_move;	
+		sprite_index = sprMove;	
 	}
 	m_playerDirection = PlayerDirection.RIGHT;
 	image_xscale = 1;
 }
 else
 {
-	if (!isAttack and !isJumping) sprite_index = spr_character_idle;
+	if (!isAttack and !isJumping) sprite_index = sprIdle;
 	hspd = 0;
 }
 

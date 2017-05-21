@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0cc2c95d-d3f3-4a9d-a759-98f36b3869de",
+            "Value": {
+                "id": "2bfe858d-94f3-43ff-a26a-8eb393dfa73c",
+                "resourcePath": "sprites\\spr_kyo_idle\\spr_kyo_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "141f8b67-82ac-4c2d-a17c-f3a84f7e95bc",
             "Value": {
                 "id": "4568d83e-0ed0-44d2-b745-fbb3f324cdce",
@@ -52,6 +60,14 @@
                 "id": "2add6221-e61f-42a6-8e61-60c6b47ad862",
                 "resourcePath": "views\\1ed216e5-4fed-4475-b767-d8454274ed0c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2194c0cc-32fb-4a3f-8805-b4ec10fa6448",
+            "Value": {
+                "id": "f8747e3f-b323-48bf-b2cc-a1a3bc389fe1",
+                "resourcePath": "sprites\\spr_kyo_punch_light\\spr_kyo_punch_light.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "4664064a-51bd-4e84-b776-4067fbd28ece",
+            "Value": {
+                "id": "2feae641-6f8f-482a-8321-a62ca85f2cfb",
+                "resourcePath": "views\\4664064a-51bd-4e84-b776-4067fbd28ece.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "499b4752-dc1d-47bb-94b1-45d05e165291",
             "Value": {
                 "id": "3bff19e9-8b25-42f0-a5c3-e366e5d47aae",
@@ -151,11 +175,27 @@
             }
         },
         {
+            "Key": "6f963794-824e-4ce1-9b30-801e10fc6030",
+            "Value": {
+                "id": "b479fdf6-7be8-4357-8b85-c1b7b9ef842e",
+                "resourcePath": "sprites\\spr_kyo_move\\spr_kyo_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "707a9888-86c6-4883-9bf6-047c8a30ac2a",
             "Value": {
                 "id": "2e7b9490-33d3-4a7c-a53c-fc7e84bbaeee",
                 "resourcePath": "sprites\\spr_character_sword_attack_3\\spr_character_sword_attack_3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71085ca5-ffb9-4bac-94a8-12728a40ae10",
+            "Value": {
+                "id": "cb8356d1-c206-4925-9dce-3cc2a5208518",
+                "resourcePath": "views\\71085ca5-ffb9-4bac-94a8-12728a40ae10.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -175,11 +215,27 @@
             }
         },
         {
+            "Key": "737b839a-fb70-42cd-80de-94a4bf7a6843",
+            "Value": {
+                "id": "f3984e57-9512-4fbf-a408-4f01ae7ff1b7",
+                "resourcePath": "views\\737b839a-fb70-42cd-80de-94a4bf7a6843.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "827ae9e4-ab26-4a4e-8e8b-3a4f09327459",
             "Value": {
                 "id": "02d4c351-2ec0-4c71-8d8e-3d9d7c737e76",
                 "resourcePath": "views\\827ae9e4-ab26-4a4e-8e8b-3a4f09327459.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8eb45290-3ac0-43f0-b750-81e61e89013f",
+            "Value": {
+                "id": "3821461d-1835-4fc9-a29b-9d4690ea1382",
+                "resourcePath": "sprites\\spr_kyo_kick_light\\spr_kyo_kick_light.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +260,22 @@
                 "id": "8f760989-4753-4e10-af3c-be49662a2042",
                 "resourcePath": "views\\979167a8-f3fe-4162-8594-bfb007f8951d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b2c2262-d174-445c-a016-45a96f10e11f",
+            "Value": {
+                "id": "bd0aa73d-e1f9-4007-90f3-43c760b57574",
+                "resourcePath": "objects\\obj_character_kyo\\obj_character_kyo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a1dc0945-b19e-4799-9cc5-f62605c407a3",
+            "Value": {
+                "id": "05a8cf46-fcf4-45cb-952d-b6b14ed6cc69",
+                "resourcePath": "sprites\\spr_kyo_punch_heavy\\spr_kyo_punch_heavy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

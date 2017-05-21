@@ -17,6 +17,11 @@ m_playerDirection = PlayerDirection.RIGHT;
 isJumping = false;
 isAttack = false;
 
+// Sprite setting
+sprIdle = spr_character_idle;
+sprMove = spr_character_move;
+sprPunch = spr_character_punch;
+
 // Combo
 combo = 0;
 comboMax = 3;
