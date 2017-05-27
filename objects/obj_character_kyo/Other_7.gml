@@ -4,7 +4,7 @@
 if (isAttack)
 {
 	isAttack = false;
-	sprite_index = spr_character_idle;
+	sprite_index = sprIdle;
 	attackIndex = 0;
 }
 else if (sprite_index == sprJump)
