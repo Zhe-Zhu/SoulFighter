@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "274170cd-f6c5-42b5-9979-77835d7d5b36",
+            "Value": {
+                "id": "e0e1aad2-f098-473d-8087-3452da1b4985",
+                "resourcePath": "sprites\\spr_kyo_jump\\spr_kyo_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b75fa52-411d-4600-a939-c5891430b675",
             "Value": {
                 "id": "81f0b9b1-8478-46b5-8ee2-0955f2845e76",

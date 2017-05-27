@@ -49,9 +49,9 @@ if (place_meeting(x, y+1, obj_ground))
 	if (keyboard_check(vk_space))
 	{
 		vspd = -jspd;
-		sprite_index = spr_character_jump;
+		sprite_index = sprJump;
 		isJumping = true;
-		image_index = 0;
+		image_index = 2;
 	}
 }
 else

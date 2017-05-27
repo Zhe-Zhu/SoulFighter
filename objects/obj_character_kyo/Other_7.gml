@@ -7,7 +7,7 @@ if (isAttack)
 	sprite_index = spr_character_idle;
 	attackIndex = 0;
 }
-else if (sprite_index == spr_character_jump)
+else if (sprite_index == sprJump)
 {
-	sprite_index = spr_character_idle;
+	sprite_index = sprIdle;
 }

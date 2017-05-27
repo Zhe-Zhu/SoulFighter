@@ -13,7 +13,10 @@
         "0e1df5d0-05f8-48d1-a7d5-6ff5b552e749",
         "0cc2c95d-d3f3-4a9d-a759-98f36b3869de",
         "6f963794-824e-4ce1-9b30-801e10fc6030",
-        "a0e3f469-4d5e-4d34-a14c-e6a491076efc"
+        "a0e3f469-4d5e-4d34-a14c-e6a491076efc",
+        "09fadcda-cccf-4d88-8313-454d0a3970c4",
+        "5780cd7f-3b4f-4e0a-829b-42df092ed46d",
+        "274170cd-f6c5-42b5-9979-77835d7d5b36"
     ],
     "filterType": "GMSprite",
     "folderName": "Kyo",
