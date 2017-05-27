@@ -7,12 +7,12 @@ jspd = 12;
 hspd = 0;
 vspd = 0;
 
-// Store player direction
-enum PlayerDirection{
-    LEFT,
-    RIGHT
-}
-m_playerDirection = PlayerDirection.RIGHT;
+//// Store player direction
+//enum PlayerDirection{
+//    LEFT,
+//    RIGHT
+//}
+//m_playerDirection = PlayerDirection.RIGHT;
 
 isJumping = false;
 isAttack = false;

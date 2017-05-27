@@ -178,7 +178,7 @@
             "Key": "6f963794-824e-4ce1-9b30-801e10fc6030",
             "Value": {
                 "id": "b479fdf6-7be8-4357-8b85-c1b7b9ef842e",
-                "resourcePath": "sprites\\spr_kyo_move\\spr_kyo_move.yy",
+                "resourcePath": "sprites\\spr_kyo_dodge\\spr_kyo_dodge.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -220,6 +220,14 @@
                 "id": "f3984e57-9512-4fbf-a408-4f01ae7ff1b7",
                 "resourcePath": "views\\737b839a-fb70-42cd-80de-94a4bf7a6843.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e5199b7-11c8-4e20-b95d-719e66c1249c",
+            "Value": {
+                "id": "161ef2a3-7620-422a-b229-671866df878a",
+                "resourcePath": "scripts\\scr_character_move_create\\scr_character_move_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -268,6 +276,14 @@
                 "id": "bd0aa73d-e1f9-4007-90f3-43c760b57574",
                 "resourcePath": "objects\\obj_character_kyo\\obj_character_kyo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0e3f469-4d5e-4d34-a14c-e6a491076efc",
+            "Value": {
+                "id": "21866926-65b2-44c2-bbf8-0c19eadc76c8",
+                "resourcePath": "sprites\\spr_kyo_move\\spr_kyo_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -416,6 +432,7 @@
         }
     ],
     "script_order": [
+        "7e5199b7-11c8-4e20-b95d-719e66c1249c",
         "b5123e74-ae7b-4b50-95ab-6fcbc309c919"
     ],
     "tutorial": ""

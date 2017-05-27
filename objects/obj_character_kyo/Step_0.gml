@@ -31,4 +31,3 @@ if (keyboard_check(ord("K")) and !isAttack)
 	
 	alarm[1] = 60; // And this to init the combo
 }
-

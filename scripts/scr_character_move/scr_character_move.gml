@@ -3,7 +3,7 @@ MOVELEFT = keyboard_check(ord("A"));
 MOVERIGHT = keyboard_check(ord("D"));
 
 //Move Player
-if (MOVELEFT && x > sprite_width/2)
+if (MOVELEFT && x > sprite_width/2 and !isDodge)
 {
 	if (isJumping) 
 	{
@@ -17,7 +17,7 @@ if (MOVELEFT && x > sprite_width/2)
 	m_playerDirection = PlayerDirection.LEFT;
 	image_xscale = -1;
 }
-else if (MOVERIGHT && x < room_width - sprite_width/2)
+else if (MOVERIGHT && x < room_width - sprite_width/2 and !isDodge)
 {
 	if (isJumping) 
 	{
@@ -33,8 +33,11 @@ else if (MOVERIGHT && x < room_width - sprite_width/2)
 }
 else
 {
-	if (!isAttack and !isJumping) sprite_index = sprIdle;
-	hspd = 0;
+	if (!isAttack and !isJumping and !isDodge) 
+	{
+		sprite_index = sprIdle;
+		hspd = 0;
+	}
 }
 
 // Check for ground
@@ -58,6 +61,21 @@ else
 	{
 		vspd += grav;
 	}
+}
+
+if (keyboard_check(vk_shift) and !isAttack and !isDodge)
+{
+	if (m_playerDirection == PlayerDirection.LEFT)
+	{
+		hspd = -dodgeSpeed;
+	}
+	else if (m_playerDirection == PlayerDirection.RIGHT)
+	{
+		hspd = dodgeSpeed;
+	}
+	isDodge = true;
+	alarm[0] = dodgeTime;
+	sprite_index = sprDoge;
 }
 
 x += hspd;
