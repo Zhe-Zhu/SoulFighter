@@ -31,3 +31,24 @@ if (keyboard_check(ord("K")) and !isAttack)
 	
 	alarm[1] = 60; // And this to init the combo
 }
+
+// Control sprite
+if (x == xprevious and y == yprevious)
+{
+	if (!isAttack and !isJumping and !isDodge)
+	{
+		sprite_index = sprIdle;
+	}
+}
+
+if (isJumping and sprite_index == sprJump)
+{
+	if (image_index == 18 and !place_meeting(x, y+1, obj_ground))
+	{
+		image_speed = 0;
+	}
+	else
+	{
+		image_speed = 1;
+	}
+}

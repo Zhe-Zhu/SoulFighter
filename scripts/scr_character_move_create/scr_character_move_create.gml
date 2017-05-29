@@ -1,9 +1,9 @@
 // Move setting
-movSpeed = 5;
+movSpeed = 8;
 jumpMovSpeed = 2;
 
 grav = 1;
-jspd = 12;
+jspd = 13;
 hspd = 0;
 vspd = 0;
 

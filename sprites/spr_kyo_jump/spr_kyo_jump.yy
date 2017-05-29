@@ -494,7 +494,7 @@
         }
     ],
     "origin": 9,
-    "playbackSpeed": 15,
+    "playbackSpeed": 20,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
@@ -503,5 +503,5 @@
     "type": 0,
     "width": 192,
     "xorig": 44,
-    "yorig": 178
+    "yorig": 185
 }
