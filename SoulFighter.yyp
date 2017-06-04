@@ -47,11 +47,35 @@
             }
         },
         {
+            "Key": "10120923-9b68-438d-83e5-3523edd392db",
+            "Value": {
+                "id": "c7412686-e944-4ac0-b8d9-926a3ef4b164",
+                "resourcePath": "sprites\\spr_npc_devil_dead\\spr_npc_devil_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "141f8b67-82ac-4c2d-a17c-f3a84f7e95bc",
             "Value": {
                 "id": "4568d83e-0ed0-44d2-b745-fbb3f324cdce",
                 "resourcePath": "sprites\\spr_character_punch_hitbox\\spr_character_punch_hitbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1841efa2-b257-4bba-9807-e3c958eebb77",
+            "Value": {
+                "id": "5ceee858-ad78-461a-a306-9ada9f4fea2a",
+                "resourcePath": "sprites\\spr_npc_devil_attack\\spr_npc_devil_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d9f8d39-c278-464c-a8cf-d39d407f0ccc",
+            "Value": {
+                "id": "436faeea-4a90-4b20-9d89-351cd0c0813f",
+                "resourcePath": "objects\\obj_npc_devil\\obj_npc_devil.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,11 +167,27 @@
             }
         },
         {
+            "Key": "4964cae6-50a1-49b3-be4d-179c66621c52",
+            "Value": {
+                "id": "5ecdf7fb-e8cd-4fe3-aec9-0225d80bbf03",
+                "resourcePath": "views\\4964cae6-50a1-49b3-be4d-179c66621c52.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "499b4752-dc1d-47bb-94b1-45d05e165291",
             "Value": {
                 "id": "3bff19e9-8b25-42f0-a5c3-e366e5d47aae",
                 "resourcePath": "views\\499b4752-dc1d-47bb-94b1-45d05e165291.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4be0b158-77a9-4a22-9567-98a5010585c4",
+            "Value": {
+                "id": "16f45a28-e818-4f52-929a-280d23ae267e",
+                "resourcePath": "sprites\\spr_npc_devil_idle\\spr_npc_devil_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -164,6 +204,14 @@
                 "id": "f4136aca-f245-45e6-b38b-b3b5b830aa1f",
                 "resourcePath": "objects\\obj_character\\obj_character.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6528a539-7ef6-4936-8d9f-db0a60fc3b2f",
+            "Value": {
+                "id": "3e6fccfc-018e-443d-9697-b32f2b614083",
+                "resourcePath": "sprites\\spr_npc_devil_walk\\spr_npc_devil_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,6 +335,14 @@
             }
         },
         {
+            "Key": "9d741eea-6118-4534-8097-a989650daecc",
+            "Value": {
+                "id": "76241b28-3346-4cd4-999f-6bf1b6b40865",
+                "resourcePath": "views\\9d741eea-6118-4534-8097-a989650daecc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a0e3f469-4d5e-4d34-a14c-e6a491076efc",
             "Value": {
                 "id": "21866926-65b2-44c2-bbf8-0c19eadc76c8",
@@ -327,6 +383,14 @@
             }
         },
         {
+            "Key": "b167505b-cc9b-4508-a97b-c1a3182dce8c",
+            "Value": {
+                "id": "4a8537db-87b8-4166-850b-2c15b1fd63ab",
+                "resourcePath": "views\\b167505b-cc9b-4508-a97b-c1a3182dce8c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5123e74-ae7b-4b50-95ab-6fcbc309c919",
             "Value": {
                 "id": "3806ef62-0dc2-4655-b9c7-729a91a34351",
@@ -355,6 +419,14 @@
             "Value": {
                 "id": "d34331b1-a16c-405a-aba8-027ebbd0b85c",
                 "resourcePath": "views\\ca3f8c73-7d68-4fb7-bb40-5f998a1e2e91.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cafc538c-6ab5-48c6-aab0-52f3f0c71231",
+            "Value": {
+                "id": "ca3cdad2-baba-439b-b50b-5132e54dc1c6",
+                "resourcePath": "views\\cafc538c-6ab5-48c6-aab0-52f3f0c71231.yy",
                 "resourceType": "GMFolder"
             }
         },
