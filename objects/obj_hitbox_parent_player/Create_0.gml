@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-event_inherited();
+damage = 0;
 
-hitType = 0;
-alarm[0] = 1;
+hitType = 0; // 0 - player, 1 - enemy

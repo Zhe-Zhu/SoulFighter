@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-event_inherited();
-
-hitType = 0;
-alarm[0] = 1;
+hp -= other.damage;
+if (hp <= 0)
+{
+	game_end();
+}

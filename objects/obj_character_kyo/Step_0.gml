@@ -17,6 +17,8 @@ if (keyboard_check(ord("J")) and !isAttack)
 		y = other.y;
 		direction = other.direction;
 		speed = other.speed;
+		image_xscale = other.image_xscale;
+		damage = other.punchDamage;
 	}
 
 }

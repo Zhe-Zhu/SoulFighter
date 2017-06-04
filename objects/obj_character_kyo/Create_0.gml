@@ -8,3 +8,6 @@ comboPunch[0] = spr_kyo_punch_light;
 comboPunch[1] = spr_kyo_punch_heavy;
 comboPunch[2] = spr_kyo_kick_light;
 
+// Attributes
+hp = 200;
+punchDamage = 30;

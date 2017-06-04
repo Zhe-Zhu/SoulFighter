@@ -50,7 +50,7 @@
             "Key": "10120923-9b68-438d-83e5-3523edd392db",
             "Value": {
                 "id": "c7412686-e944-4ac0-b8d9-926a3ef4b164",
-                "resourcePath": "sprites\\spr_npc_devil_dead\\spr_npc_devil_dead.yy",
+                "resourcePath": "sprites\\spr_npc_devil_stun\\spr_npc_devil_stun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -66,7 +66,7 @@
             "Key": "1841efa2-b257-4bba-9807-e3c958eebb77",
             "Value": {
                 "id": "5ceee858-ad78-461a-a306-9ada9f4fea2a",
-                "resourcePath": "sprites\\spr_npc_devil_attack\\spr_npc_devil_attack.yy",
+                "resourcePath": "sprites\\spr_npc_devil_hitbox\\spr_npc_devil_hitbox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -92,6 +92,14 @@
                 "id": "f8747e3f-b323-48bf-b2cc-a1a3bc389fe1",
                 "resourcePath": "sprites\\spr_kyo_punch_light\\spr_kyo_punch_light.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2496f7e7-c59d-44c8-ad5c-ffafd9878378",
+            "Value": {
+                "id": "472610b6-0f1d-4d47-ac3c-bb292c2cc19d",
+                "resourcePath": "objects\\obj_npc_devil_hitbox\\obj_npc_devil_hitbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "b984c158-a856-4f53-ba0c-c2667b3c794d",
+            "Value": {
+                "id": "c150c686-04e4-4231-aac4-2b6742641ac5",
+                "resourcePath": "objects\\obj_hitbox_parent_player\\obj_hitbox_parent_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b9ccd751-c572-4752-a8a5-ae109315e5d1",
             "Value": {
                 "id": "dc8041b4-810e-4bc3-a1f5-9bb9bc18d97c",
@@ -419,6 +435,14 @@
             "Value": {
                 "id": "d34331b1-a16c-405a-aba8-027ebbd0b85c",
                 "resourcePath": "views\\ca3f8c73-7d68-4fb7-bb40-5f998a1e2e91.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caf3403a-0a89-46f2-9347-5887fb5004c8",
+            "Value": {
+                "id": "d0ea4882-3395-4cab-9b9b-67dfbd7f20ec",
+                "resourcePath": "views\\caf3403a-0a89-46f2-9347-5887fb5004c8.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -479,11 +503,27 @@
             }
         },
         {
+            "Key": "dd169962-0e77-41cc-a310-ec033c825da1",
+            "Value": {
+                "id": "65cd4467-2c98-48af-9267-c1fc11dbae9e",
+                "resourcePath": "objects\\obj_hitbox_parent_enemy\\obj_hitbox_parent_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e1f69529-80e0-4593-9702-382fb89d636b",
             "Value": {
                 "id": "c12b2f94-91d9-42c4-8b36-747ac55c0b8b",
                 "resourcePath": "views\\e1f69529-80e0-4593-9702-382fb89d636b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4c09284-363b-4658-8ede-cd76a4d54597",
+            "Value": {
+                "id": "9a259622-faee-4381-8801-72502af3eda2",
+                "resourcePath": "sprites\\spr_npc_devil_dead\\spr_npc_devil_dead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -508,6 +548,14 @@
                 "id": "f4a44a4b-0ca9-4e2c-966e-5f66736e724c",
                 "resourcePath": "views\\fb502c44-af02-42c5-a1da-6adb40ce0df9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe1643b0-3624-4879-b0f2-3d8ab3d871d4",
+            "Value": {
+                "id": "0d8f7d68-4190-412b-aba2-d9b05fb3f062",
+                "resourcePath": "sprites\\spr_npc_devil_attack\\spr_npc_devil_attack.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
